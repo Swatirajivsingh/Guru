@@ -13,8 +13,6 @@ public class Login {
 	public static String  Login(String Uname, String Password, WebDriver driver)
 	{
 		String actualTitle;
-				
-			
 		 WebElement username = driver.findElement(By.name("uid"));
 		    username.sendKeys(Uname);
 		    WebElement password = driver.findElement(By.name("password"));
